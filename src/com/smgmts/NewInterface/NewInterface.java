@@ -13,7 +13,10 @@ public class NewInterface extends JPanel {
 
     public void NewInterfacegui(){
 
-
+        setBackground(Color.white);
+        setVisible(true);
+        setBounds(0,0,1200,800);
+        setLayout(null);
 
     }
 }

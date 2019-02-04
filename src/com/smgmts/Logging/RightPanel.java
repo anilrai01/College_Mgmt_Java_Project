@@ -1,6 +1,8 @@
 package com.smgmts.Logging;
 
 import com.smgmts.DataBase.Database;
+import com.smgmts.NewInterface.NewInterFaceFrame;
+import com.smgmts.NewInterface.NewInterface;
 import com.smgmts.ProfileDashboard.ProfileDash;
 
 import javax.swing.*;
@@ -15,6 +17,7 @@ public class RightPanel extends JPanel {
     private JLabel lbluser,lblpwd;
     private JPasswordField txtpwd;
     private JButton btnlogin, btnexit;
+
 
     private String username, password;
 
@@ -97,7 +100,7 @@ public class RightPanel extends JPanel {
                 System.out.println(status);
                 if (status) {
                     JOptionPane.showMessageDialog(null, "Welcome " + getUsername());
-                    ProfileDash pdf = new ProfileDash();
+                    NewInterFaceFrame nif = new NewInterFaceFrame();
                 }
                 else {
                     JOptionPane.showMessageDialog(null, "Incorrect Username or Password");

@@ -22,8 +22,8 @@ public class LeftPanel extends JPanel{
         setBounds(0,0,300,500);
         setBackground(Color.white);
 
+        //adding panel
         background.setBounds(10,110,300,260);
-//        background.setBorder(BorderFactory.createMatteBorder(0,2,0,0,Color.white));
 
         ImageIcon img = new ImageIcon(Toolkit.getDefaultToolkit().getImage
                 (getClass().getResource("logo.jpg")));
@@ -33,6 +33,8 @@ public class LeftPanel extends JPanel{
         ImageIcon i = new ImageIcon(img2);
 
         background.setIcon(i);
+
+
         add(background);
 
     }
