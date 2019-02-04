@@ -1,6 +1,7 @@
 package com.smgmts;
 
-import com.smgmts.NewInterface.NewInterFaceFrame;
+import com.smgmts.Logging.LogIn;
+import com.smgmts.NetBBeansDashBoard.InternalDash;
 
 import javax.swing.*;
 
@@ -13,8 +14,10 @@ public class Main {
 //                LogIn login = new LogIn();
 //                ProfileDash pd = new ProfileDash();
 
-                NewInterFaceFrame nif = new NewInterFaceFrame();
-
+                InternalDash idss = new InternalDash();
+                idss.setVisible(true);
+                idss.setLocationRelativeTo(null);
+                idss.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 //                Database db = new Database();
 //                System.out.println(db.getFetched());

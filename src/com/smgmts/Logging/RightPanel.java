@@ -1,6 +1,7 @@
 package com.smgmts.Logging;
 
 import com.smgmts.DataBase.Database;
+import com.smgmts.NetBBeansDashBoard.InternalDash;
 import com.smgmts.NewInterface.NewInterFaceFrame;
 import com.smgmts.NewInterface.NewInterface;
 import com.smgmts.ProfileDashboard.ProfileDash;
@@ -97,10 +98,11 @@ public class RightPanel extends JPanel {
                 db.setPswrd(getPassword());
                 boolean status = db.connection();
 
-                System.out.println(status);
+
                 if (status) {
                     JOptionPane.showMessageDialog(null, "Welcome " + getUsername());
-                    NewInterFaceFrame nif = new NewInterFaceFrame();
+                    InternalDash ids = new InternalDash();
+                    ids.setVisible(true);
                 }
                 else {
                     JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
