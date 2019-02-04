@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff22973a-e7be-4a08-bf7b-e3e3ad2d7a92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/smgmts/NewInterface/NewInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Logging/RightPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/ProfileDash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/ProfileDash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/leftPan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/leftPan$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/leftPan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/leftPan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/College Management System/com/smgmts/ProfileDashboard/rightPanels/rightDRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smgmts/Logging/RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smgmts/Logging/RightPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smgmts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smgmts/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/ProfileDash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/ProfileDash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/leftPan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/leftPan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/rightPanels/rightDRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/rightPanels/rightDRegister.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smgmts/ProfileDashboard/rightPanels/rightContentPanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -79,6 +65,15 @@
                 <element signature="e#171#172#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/smgmts/NewInterface/NewInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -159,21 +154,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="smgmts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="College Management System - Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="College Management System - Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="smgmts" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileDashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="College Management System - Copy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="College Management System - Copy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="smgmts" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileDashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="rightPanels" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,7 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549267968993" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549268828248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -292,8 +272,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -305,7 +286,7 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.6089386" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.6089386" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50067115" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -533,6 +514,13 @@
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smgmts/NewInterface/NewInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
