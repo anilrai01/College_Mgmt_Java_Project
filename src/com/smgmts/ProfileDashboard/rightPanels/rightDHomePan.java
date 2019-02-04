@@ -6,6 +6,7 @@ import com.smgmts.DataBase.Database;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class rightDHomePan extends JPanel{
@@ -20,8 +21,7 @@ public class rightDHomePan extends JPanel{
 
 
     public void rightDHomePangui(){
-
-        ArrayList<Student> list = Database.show_student();
+        List<Student> list = Database.show_student();
         int size = list.size();
         String data[][]= new String[size][13];
         int row = 0;

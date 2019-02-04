@@ -5,6 +5,7 @@ import com.smgmts.ProfileDashboard.rightPanels.Student;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Database {
 
@@ -56,12 +57,12 @@ public class Database {
 
 
 
-    public static ArrayList<Student> show_student(){
-        ArrayList<Student> student = new ArrayList<Student>();
+    public static List<Student> show_student(){
+        List<Student> list = new ArrayList<Student>();
 
         String url = "jdbc:mysql://localhost:3306/collegeproject";
         String sqluser = "root";
-        String pwd = "CollegeProject";
+        String pwd = "";
 
         Connection con = null;
         ResultSet rs = null;
@@ -69,49 +70,30 @@ public class Database {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(url,sqluser,pwd);
-            //Connection Established
-            String sql = "select * from student";
-            rs = st.executeQuery(sql);
-//            ResultSetMetaData rsmt = rs.getMetaData();
-//            int count = rsmt.getColumnCount();
-//            Vector column = new Vector(count);
-//            for(int i=1; i<=count; i++){
-//                column.add(rsmt.getColumnName(i));
-//            }
-//
-//            Vector data = new Vector();
-//            Vector row = new Vector();
-
+            PreparedStatement statement = con.prepareStatement("select * from student");
+            rs = statement.executeQuery();
             while(rs.next()){
-//                row = new Vector(count);
-//                for (int i=1; i<=count; i++){
-//                    row.add(rs.getString(i));
-//                }
-//                data.add(row);
-
-                Student std = new Student();
-                std.setId(rs.getString(1));
-                std.setFname(rs.getString(2));
-                std.setLname(rs.getString(3));
-                std.setDOB(rs.getString(4));
-                std.setEmail(rs.getString(5));
-                std.setContact(rs.getString(6));
-                std.setParent_name(rs.getString(7));
-                std.setParent_contact(rs.getString(8));
-                std.setSemester(rs.getString(9));
-                std.setIntake(rs.getString(10));
-                std.setFaculty(rs.getString(11));
-                std.setUsern(rs.getString(12));
-                std.setPaswor(rs.getString(13));
-                student.add(std);
+                Student student = new Student();
+                student.setId(rs.getString(1));
+                student.setFname(rs.getString(2));
+                student.setLname(rs.getString(3));
+                student.setDOB(rs.getString(4));
+                student.setEmail(rs.getString(5));
+                student.setContact(rs.getString(6));
+                student.setParent_name(rs.getString(7));
+                student.setParent_contact(rs.getString(8));
+                student.setSemester(rs.getString(9));
+                student.setIntake(rs.getString(10));
+                student.setFaculty(rs.getString(11));
+                student.setUsern(rs.getString(12));
+                student.setPaswor(rs.getString(13));
+                list.add(student);
 
             }
-
-
         }catch(Exception e){
             System.out.println(e);
         }
-        return student;
+        return list;
     }
 
     }
