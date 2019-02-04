@@ -1,6 +1,6 @@
 package com.smgmts;
 
-import com.smgmts.ProfileDashboard.ProfileDash;
+import com.smgmts.NewInterface.NewInterFaceFrame;
 
 import javax.swing.*;
 
@@ -11,7 +11,10 @@ public class Main {
             @Override
             public void run() {
 //                LogIn login = new LogIn();
-                ProfileDash pd = new ProfileDash();
+//                ProfileDash pd = new ProfileDash();
+
+                NewInterFaceFrame nif = new NewInterFaceFrame();
+
 
 //                Database db = new Database();
 //                System.out.println(db.getFetched());
