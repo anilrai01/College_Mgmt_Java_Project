@@ -1,6 +1,7 @@
 package com.smgmts.Logging;
 
 import com.smgmts.DataBase.Database;
+import com.smgmts.ProfileDashboard.ProfileDash;
 
 import javax.swing.*;
 import java.awt.*;
@@ -92,13 +93,14 @@ public class RightPanel extends JPanel {
                 db.setUser(getUsername());
                 db.setPswrd(getPassword());
                 boolean status = db.connection();
-//                JOptionPane.showMessageDialog(null,com);
+
                 System.out.println(status);
                 if (status) {
                     JOptionPane.showMessageDialog(null, "Welcome " + getUsername());
+                    ProfileDash pdf = new ProfileDash();
                 }
                 else {
-                    System.out.println("incorrect Password");
+                    JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
                 }
             }
         });

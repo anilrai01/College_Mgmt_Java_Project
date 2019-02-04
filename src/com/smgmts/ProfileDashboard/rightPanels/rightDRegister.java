@@ -1,5 +1,7 @@
 package com.smgmts.ProfileDashboard.rightPanels;
 
+import com.smgmts.Controller.ClickEvents;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -22,15 +24,28 @@ public class rightDRegister extends JPanel {
     String insertQuery;
     int flag = 1;
 
-
     public rightDRegister(){
         rightDRegistergui();
     }
 
+    public rightDRegister(String obj){
+        if (obj.equals("rootPanel")){
+            JOptionPane.showMessageDialog(null,"Viewed");
+
+        }
+
+    }
+
+
     public void rightDRegistergui(){
-        setBounds(350,70,1050,730);
+        setBounds(0,0,1030,600);
         setLayout(null);
-        setVisible(false);
+        setVisible(true);
+
+
+
+
+        setBackground(Color.BLACK);
 
         id = new JLabel("ID :");
         id.setBounds(100,70,50,30);
@@ -190,9 +205,5 @@ public class rightDRegister extends JPanel {
 
 
 
-    }
-
-    public void makeVisible(){
-        setBackground(Color.black);
     }
 }

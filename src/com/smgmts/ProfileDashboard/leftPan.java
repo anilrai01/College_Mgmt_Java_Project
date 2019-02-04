@@ -1,5 +1,7 @@
 package com.smgmts.ProfileDashboard;
 
+import com.smgmts.Controller.ClickEvents;
+import com.smgmts.ProfileDashboard.rightPanels.rightContentPanel;
 import com.smgmts.ProfileDashboard.rightPanels.rightDRegister;
 
 import javax.swing.*;
@@ -14,6 +16,8 @@ public class leftPan extends JPanel {
     private Color brand = new Color(232, 17, 35);
 
     private JButton home, assignments, settings, register, status;
+    private JPanel BtnHomePanel;
+    private JPanel BtnHomeIcon;
 
     public leftPan(){
         leftPangui();
@@ -23,7 +27,10 @@ public class leftPan extends JPanel {
         setBounds(0,0,350,800);
         setBackground(brand);
         setLayout(null);
-        setVisible(false);
+        setVisible(true);
+
+
+
 
 
         JButton home = new JButton("Home");
@@ -65,9 +72,6 @@ public class leftPan extends JPanel {
         register.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent ee) {
-                rightDRegister rdj = new rightDRegister();
-                rdj.makeVisible();
-
             }
         });
 
